@@ -1,0 +1,359 @@
+h1 {
+    color: white;
+}
+
+h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+}
+
+h3 {
+color: #fff;
+text-align: center;
+}
+
+h4 {
+    color: #fff;
+    text-align: center;
+}
+
+li {
+    color: #fff;
+}
+
+p {
+    color: #fff;
+    text-align: left;
+}
+
+hr {
+    border: solid 5px #fff;
+    border-radius: 10px;
+}
+
+body {
+    background-color: #000;
+    margin: 0;
+  padding: 0;
+}
+
+h3 {
+  color: black;
+}
+
+label {
+    color: #fff;
+}
+
+.minecraft-btn{
+    color: white;
+    border: solid 5px white;
+    border-radius: 10px;
+    padding: 3px;
+    width: 200px;
+    height: 75px;
+    background-image: url('Minecraft-Background-icon.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+}
+
+.minecraft-btn img {
+    width: 50px;
+    height: 50px;
+    display: block;
+}
+
+.poly-track-btn{
+    color: white;
+    border: solid 5px white;
+    border-radius: 10px;
+    padding: 3px;
+    width: 200px;
+    height: 75px;
+    background-image: url('Poly-Track-Background-icon.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+}
+
+.poly-track-btn img {
+    width: 50px;
+    height: 50px;
+    display: block;
+}
+
+.snacks-btn{
+    color: white;
+    border: solid 5px white;
+    border-radius: 10px;
+    padding: 3px;
+    width: 200px;
+    height: 75px;
+    background-image: url('Snacks-Background-con.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+}
+
+.snacks-btn img {
+    width: 50px;
+    height: 50px;
+    display: block;
+}
+
+.survival-btn{
+    color: white;
+    border: solid 5px white;
+    border-radius: 10px;
+    padding: 3px;
+    width: 200px;
+    height: 75px;
+    background-image: url('Survival-Background-Icon.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+}
+
+.survival-btn img {
+    width: 50px;
+    height: 50px;
+    display: block;
+}
+
+.new-game-btn{
+    color: white;
+    border: solid 5px white;
+    border-radius: 10px;
+    padding: 3px;
+    width: 200px;
+    height: 75px;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    cursor: not-allowed;
+}
+
+.new-game-btn img {
+    width: 50px;
+    height: 50px;
+    display: block;
+}
+
+.launch-btn {
+    color: white;
+    background-color: transparent;
+    border: solid 5px #fff;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.minecraft-title {
+    color: r(151, 0, 0);
+}
+
+.home-page-button {
+    color: black;
+    background-color: white;
+    border: solid 3px #fff;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.topnav {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Adjust spacing between items here */
+  padding: 15px;
+  background-color: #fff;
+  background-size:contain;
+}
+
+.topnav h1 {
+  margin: 0;
+}
+
+.topnav a {
+  float: left;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  background-color: #000;
+}
+
+.topnav a:hover {
+  background-color: #000;
+  color: #fff;
+  border: solid 1px #fff;
+  border-radius: 5px;
+}
+
+.topnav a.active {
+  background-color: #000;
+  color: #fff;
+    border: solid 1px #fff;
+  border-radius: 5px;
+}
+
+/* Hide all content sections by default */
+.tab-content {
+  display: none;
+  padding: 20px;
+}
+
+/* Only show the section that has the active-content class */
+.tab-content.active-content {
+  display: block;
+}
+
+/* Optional: styling for your nav links to show which one is selected */
+.nav-link.active {
+  font-weight: bold;
+  border-bottom: 2px solid #000;
+}
+
+.topbar { 
+    background: #000; 
+    border-bottom: 1px solid #fff; 
+    padding: 20px 30px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    position: sticky; top: 0; z-index: 10; 
+    } 
+    
+.topbar h1 { 
+    margin: 0 0 5px; 
+    font-size: 28px; 
+} 
+
+.topbar p { 
+    margin: 0; 
+    color: #777;
+ } 
+
+.games-page-game-button {  
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.half {
+    width: 800px;
+}
+
+        /* 1. This container holds the items and aligns them horizontally */
+        .product-grid {
+            display: flex;
+            flex-wrap: wrap; /* Allows items to wrap to a new row on mobile screens */
+            gap: 20px;       /* Spacing between the columns */
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* 2. Each individual product card takes up roughly 1/4 of the width */
+        .product-card {
+            background: #000;
+            border: solid 5px #fff;
+            border-radius: 8px;
+            padding: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            flex: 1 1 calc(25% - 20px); /* Base width is 25% minus the gap */
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Responsive design: On smaller screens, show 2 per row instead of 4 */
+        @media (max-width: 800px) {
+            .product-card {
+                flex: 1 1 calc(50% - 20px);
+            }
+        }
+
+        /* Responsive design: On mobile screens, stack them vertically */
+        @media (max-width: 500px) {
+            .product-card {
+                flex: 1 1 100%;
+            }
+        }
+
+        .product-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover; /* Prevents image stretching */
+            border-radius: 4px;
+            border: solid 1px #005d82
+        }
+
+        .product-name {
+            font-size: 1.2rem;
+            margin: 10px 0 5px 0;
+            color: #fff;
+        }
+
+        .product-price {
+            font-weight: bold;
+            color: #fff;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .product-desc {
+            font-size: 0.9rem;
+            color: #fff;
+            line-height: 1.4;
+            text-align: center;
+        }
+
+.outline {
+    border: solid 3px #fff;
+    border-radius: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+} 
+
+.bottom-legal {
+    background-color: #fff;
+}

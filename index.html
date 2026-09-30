@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<head>
+<title>Open Testing</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/png" href="Open-Testing-icon.png" width="75px" height="75px">
+<script>
+  // Check if the current URL ends with .html
+  if (window.location.pathname.endsWith('.html')) {
+    // Create a clean URL by removing the .html extension
+    const cleanUrl = window.location.pathname.replace(/\.html$/, '') + window.location.search + window.location.hash;
+    
+    // Update the browser's address bar without reloading the page
+    window.history.replaceState(null, null, cleanUrl);
+  }
+</script>
+</head>
+<body>
+  <div class="topnav">
+  <img src="Open-Testing-Icon-Home.png" width="300px" height="75px">
+  <!-- Use href to target the ID of the content divs -->
+  <a class="nav-link active" href="#home">Home</a>
+  <a class="nav-link" href="#games">Games</a>
+  <a class="nav-link" href="#snacks">Snacks</a>
+  <a class="nav-link" href="#updates">Updates</a>
+  <a class="nav-link" href="#support">Support</a>
+</div>
+
+<!-- The Content Sections -->
+<div id="home" class="tab-content active-content">
+  <h2>Welcome to Open Testing!</h2>
+  <hr class="half">
+</div>
+
+<div id="games" class="tab-content">
+  <h2>Games</h2>
+  <hr>
+  <br>
+  <div class="games-page-game-button">
+      <button onclick="openMinecraftWindow()" class="minecraft-btn"><img src="Minecraft-icon.png" width="30px" height="30px">Minecraft</button>
+      <br>
+      <button onclick="openPolyTrackWindow()" class="poly-track-btn"><img src="Poly-Track-Icon.png" width="30px" height="30px">Poly Track</button>
+      <br>
+      <button onclick="openSurvivalWindow()" class="survival-btn"><img src="Survival-Icon.png" width="30px" height="30px">Survival Game</button>
+      <br>
+      <button class="new-game-btn">Coming Soon</button>
+  </div>
+</div>
+
+<div id="snacks" class="tab-content">
+  <h2>Snacks</h2>
+  <hr>
+  <br>
+<button onclick="openSnacksWindow()" class="snacks-btn">Snacks</button>
+    </div>
+</div>
+
+<div id="updates" class="tab-content">
+  <h2>Updates</h2>
+  <hr>
+  <br>
+  <div class="outline">
+<h3 style="color: white; text-align: center;">Snack Updates:</h3>
+<p>Snack Flavors for the week:</p>
+<label>Monster Flavors:</label><ul>
+  <li>White</li>
+  <li>Regular</li>
+  <li>Lime</li>
+</ul>
+<br>
+<label>Chip Flavors:</label><ul>
+  <li>Spicy</li>
+  <li>Regular</li>
+  <li>Salty</li>
+</ul>
+  </div>
+  <br>
+   <div class="outline">
+<h3 style="color: white; text-align: center;">Game Updates:</h3>
+<p>Games of the Week:</p>
+<ul>
+  <li>#1) Minecraft</li>
+  <li>#2) Poly Track</li>
+</ul>
+<br>
+<h3 style="color: white; text-align: center;">Actual Game Updates:</h3>
+<p>None Yet :)</p>
+</div>
+</div>
+<div id="support" class="tab-content">
+  <h2>Support</h2>
+  <hr>
+  <br>
+    </div>
+    <br>
+    <div class="outline">
+<h3 style="color: white; text-align: center;">Website Updates:</h3>
+<p>Updates:</p>
+<ul>
+  <li>New tabs</li>
+  <li>More tabs and buttons work</li>
+</ul>
+<h3 style="color: white; text-align: center;">Tab Updates:</h3>
+<p>Updates:</p>
+<ul>
+  <li>Support</li>
+  <li>Contribute</li>
+</ul>
+</div>
+</div>
+<div id="support" class="tab-content">
+  <h2>Support</h2>
+  <hr>
+  <br>
+    </div>
+</div>
+<div class="bottom-legal">
+<h1></h1>
+</div>
+<script src="tab-switching.js"></script>
+<script src="games.js"></script>
+</body>
+</html>

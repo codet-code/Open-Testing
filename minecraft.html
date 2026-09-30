@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Minecraft</title>
+<link rel="icon" type="image/png" href="Open-Testing-icon.png">
+    <style>
+        #my-container {
+            width: 100%;
+        }
+
+        #my-container:fullscreen {
+            background: black;
+            width: 100vw;
+            height: 100vh;
+        }
+
+        #my-container:fullscreen iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        body {
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+<button id="fullscreen-btn">Toggle Fullscreen</button>
+</div>
+<div id="my-container">
+    <iframe
+        src="EaglercraftX_1.8_u53_Offline_Signed.html"
+        width="100%"
+        height="750"
+        title="Embedded Content">
+    </iframe>
+<script>
+const btn = document.getElementById('fullscreen-btn');
+const container = document.getElementById('my-container');
+
+btn.addEventListener('click', async () => {
+    try {
+        if (!document.fullscreenElement) {
+            await container.requestFullscreen();
+        } else {
+            await document.exitFullscreen();
+        }
+    } catch (err) {
+        alert(`Fullscreen error: ${err.message}`);
+    }
+});
+</script>
+</body>
+</html>
