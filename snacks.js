@@ -32,7 +32,7 @@ const products = [
              {
                 name: "Chip Bags",
                 price: "\$1.50",
-                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOQ4dkk3-ziD36l-HDSJgA9A-sIxwFoO1IRdvIVWnOxw&s=10",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR01PRcj87gPSkXfYEkip9OgiDdCR-XbffzsOIew9uNGQ&s=10",
                 description: "Stock: 10."
             },
              {
