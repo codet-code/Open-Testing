@@ -3,8 +3,18 @@
 <head>
     <title>Poly Track</title>
     <script>
-        window.location.replace("https://kodub.com?");
+        window.location.replace("https://www.kodub.com/apps/polytrack?");
     </script>
+    <script>
+  // Check if the current URL ends with .html
+  if (window.location.pathname.endsWith('.html')) {
+    // Create a clean URL by removing the .html extension
+    const cleanUrl = window.location.pathname.replace(/\.html$/, '') + window.location.search + window.location.hash;
+    
+    // Update the browser's address bar without reloading the page
+    window.history.replaceState(null, null, cleanUrl);
+  }
+</script>
 </head>
 <body>
   <button id="fullscreen-btn">Toggle Fullscreen</button>

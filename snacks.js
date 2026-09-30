@@ -36,15 +36,9 @@ const products = [
                 description: "Stock: 10."
             },
              {
-                name: "Monster Energy (Special)",
-                price: "\$4.50",
-                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOQ4dkk3-ziD36l-HDSJgA9A-sIxwFoO1IRdvIVWnOxw&s=10",
-                description: "Stock: 10."
-            },
-             {
-                name: "Monster Energy (Special)",
-                price: "\$4.50",
-                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOQ4dkk3-ziD36l-HDSJgA9A-sIxwFoO1IRdvIVWnOxw&s=10",
+                name: "Mini Snack Pack",
+                price: "\$5.00",
+                image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLObOC8Tm4FCMuqDnt06ey-oe-FTJkS7uKRf81kEgBbw&s=10",
                 description: "Stock: 10."
             },
         ];
