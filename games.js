@@ -50,7 +50,7 @@ function openSpotifyWindow() {
   const windowFeatures = "width=1000,height=700,resizable=yes,scrollbars=yes,status=no,toolbar=no,menubar=no";
   
   // Open the window and save it to a variable
-  const gameWindow = window.open("spotify.html", "PortalWindow", windowFeatures);
+  const gameWindow = window.open("Spotify.html", "PortalWindow", windowFeatures);
   
   // Force the browser to focus on the new window for keyboard inputs
   if (gameWindow) {
