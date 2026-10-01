@@ -127,6 +127,33 @@ label {
     display: block;
 }
 
+.coding-btn {
+    color: white;
+    border: solid 5px white;
+    border-radius: 10px;
+    padding: 3px;
+    width: 200px;
+    height: 75px;
+    background-color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    cursor: pointer;
+}
+
+.coding-btn img {
+    width: 50px;
+    height: 50px;
+    display: block;
+}
+
 .poly-track-btn{
     color: white;
     border: solid 5px white;
