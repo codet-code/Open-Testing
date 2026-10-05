@@ -110,7 +110,7 @@ function openFlappyBirdWindow() {
   }
 }
 
-function openTagBirdWindow() {
+function openTagWindow() {
   // Define the window properties and sizes
   const windowFeatures = "width=1000,height=700,resizable=yes,scrollbars=yes,status=no,toolbar=no,menubar=no";
   
