@@ -264,10 +264,11 @@ label {
 
 .launch-btn {
     color: white;
-    background-color: transparent;
+    background-color: r(151, 0, 0);
     border: solid 5px #fff;
     border-radius: 20px;
     padding: 10px;
+    font-size: 25;
 }
 
 .minecraft-title {

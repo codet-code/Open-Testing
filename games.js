@@ -110,12 +110,12 @@ function openFlappyBirdWindow() {
   }
 }
 
-function openTagWindow() {
+function openWeWindow() {
   // Define the window properties and sizes
   const windowFeatures = "width=1000,height=700,resizable=yes,scrollbars=yes,status=no,toolbar=no,menubar=no";
   
   // Open the window and save it to a variable
-  const gameWindow = window.open("tag.html", "PortalWindow", windowFeatures);
+  const gameWindow = window.open("we.html", "PortalWindow", windowFeatures);
   
   // Force the browser to focus on the new window for keyboard inputs
   if (gameWindow) {
