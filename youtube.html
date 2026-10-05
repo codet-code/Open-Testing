@@ -5,34 +5,10 @@
     <script>
         window.location.replace("https://www.youtube.com?");
     </script>
-    <script>
-  // Check if the current URL ends with .html
-  if (window.location.pathname.endsWith('.html')) {
-    // Create a clean URL by removing the .html extension
-    const cleanUrl = window.location.pathname.replace(/\.html$/, '') + window.location.search + window.location.hash;
-    
-    // Update the browser's address bar without reloading the page
-    window.history.replaceState(null, null, cleanUrl);
-  }
-</script>
 </head>
 <body>
   <button id="fullscreen-btn">Toggle Fullscreen</button>
 </body>
-<script>
-const btn = document.getElementById('fullscreen-btn');
-const container = document.getElementById('my-container');
-
-btn.addEventListener('click', async () => {
-    try {
-        if (!document.fullscreenElement) {
-            await container.requestFullscreen();
-        } else {
-            await document.exitFullscreen();
-        }
-    } catch (err) {
-        alert(`Fullscreen error: ${err.message}`);
-    }
-});
-</script>
+<script src="fullscreen.js"></script>
+<script src="cleanurl.js"></script>
 </html>
