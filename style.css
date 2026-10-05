@@ -122,8 +122,8 @@ label {
 }
 
 .youtube-btn img {
-    width: 50px;
-    height: 75px;
+    width: 75px;
+    height: 50px;
     display: block;
 }
 
@@ -208,14 +208,14 @@ label {
     display: block;
 }
 
-.survival-btn{
+.cookie-btn{
     color: white;
     border: solid 5px white;
     border-radius: 10px;
     padding: 3px;
     width: 200px;
     height: 75px;
-    background-image: url('Survival-Background-Icon.png');
+    background-image: url('Background-Cookie-Icon.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 200px;
@@ -229,20 +229,23 @@ label {
     cursor: pointer;
 }
 
-.survival-btn img {
+.cookie-btn img {
     width: 50px;
     height: 50px;
     display: block;
 }
 
-.new-game-btn{
+.flappy-btn{
     color: white;
     border: solid 5px white;
     border-radius: 10px;
     padding: 3px;
     width: 200px;
     height: 75px;
-    background-color: #000;
+    background-image: url('Flappy-Background-Icon.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200px;
     display: flex;
     align-items: center;
     gap: 8px;
@@ -253,7 +256,7 @@ label {
     cursor: not-allowed;
 }
 
-.new-game-btn img {
+.flappy-btn img {
     width: 50px;
     height: 50px;
     display: block;
