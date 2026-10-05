@@ -84,12 +84,38 @@ function openVSCodeWindow() {
   }
 }
 
-function openRobloxWindow() {
+function openCookieClickerWindow() {
   // Define the window properties and sizes
   const windowFeatures = "width=1000,height=700,resizable=yes,scrollbars=yes,status=no,toolbar=no,menubar=no";
   
   // Open the window and save it to a variable
-  const gameWindow = window.open("roblox.html", "PortalWindow", windowFeatures);
+  const gameWindow = window.open("cookie.html", "PortalWindow", windowFeatures);
+  
+  // Force the browser to focus on the new window for keyboard inputs
+  if (gameWindow) {
+    gameWindow.focus();
+  }
+}
+
+function openFlappyBirdWindow() {
+  // Define the window properties and sizes
+  const windowFeatures = "width=1000,height=700,resizable=yes,scrollbars=yes,status=no,toolbar=no,menubar=no";
+  
+  // Open the window and save it to a variable
+  const gameWindow = window.open("flappybird.html", "PortalWindow", windowFeatures);
+  
+  // Force the browser to focus on the new window for keyboard inputs
+  if (gameWindow) {
+    gameWindow.focus();
+  }
+}
+
+function openTagBirdWindow() {
+  // Define the window properties and sizes
+  const windowFeatures = "width=1000,height=700,resizable=yes,scrollbars=yes,status=no,toolbar=no,menubar=no";
+  
+  // Open the window and save it to a variable
+  const gameWindow = window.open("tag.html", "PortalWindow", windowFeatures);
   
   // Force the browser to focus on the new window for keyboard inputs
   if (gameWindow) {
