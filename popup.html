@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Choose Your Close Key</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; padding: 20px; }
+        .box { border: 2px dashed #999; padding: 20px; margin-top: 20px; font-size: 18px; }
+    </style>
+</head>
+<body>
+    <h2>Setup Your Panic Key</h2>
+    <p>Press any key on your keyboard to set it as your close shortcut.</p>
+    
+    <div class="box">Waiting for keypress...</div>
+
+    <script>
+        document.addEventListener('keydown', function(event) {
+            // 1. Get the name of the key pressed (and lower-case it)
+            const chosenKey = event.key.toLowerCase();
+            
+            // 2. Save the key so the game page can read it later
+            localStorage.setItem('userCloseKey', chosenKey);
+            
+            // 3. Send this window straight to the game
+            window.location.href = 'minecraft.html';
+        });
+    </script>
+</body>
+</html>

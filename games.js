@@ -1,6 +1,6 @@
 function openMinecraftWindow() {
   const windowFeatures = "width=1000,height=700,resizable=yes,scrollbars=yes,status=no,toolbar=no,menubar=no";
-  const gameWindow = window.open("minecraft.html", "PortalWindow", windowFeatures);
+  const gameWindow = window.open("popup.html", "PortalWindow", windowFeatures);
   
   if (gameWindow) {
     // Wait for the window to render, then apply deep focus hooks
