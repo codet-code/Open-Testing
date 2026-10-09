@@ -3,16 +3,6 @@
 <title>Open Testing</title>
 <link rel="stylesheet" href="style.css">
 <link rel="icon" type="image/png" href="Open-Testing-icon.png" width="75px" height="75px">
-<script>
-  // Check if the current URL ends with .html
-  if (window.location.pathname.endsWith('.html')) {
-    // Create a clean URL by removing the .html extension
-    const cleanUrl = window.location.pathname.replace(/\.html$/, '') + window.location.search + window.location.hash;
-    
-    // Update the browser's address bar without reloading the page
-    window.history.replaceState(null, null, cleanUrl);
-  }
-</script>
 </head>
 <body>
   <div class="topnav">
@@ -26,7 +16,6 @@
   <a class="nav-link" href="#comminuty">Community</a>
 </div>
 
-<!-- The Content Sections -->
 <div id="home" class="tab-content active-content">
   <h2>Welcome to Open Testing!</h2>
   <hr class="half">
@@ -47,7 +36,7 @@
       <br>
       <button onclick="openFlappyBirdWindow()" class="flappy-btn"><img src="Flappy-Icon.png" width="30px" height="30px">Flappy Bird</button>
       <br>
-       <button onclick="openWeWindow()" class="we-btn"><img src="We.png" width="30px" height="30px">Camera</button>
+       <button onclick="openWeWindow()" class="we-btn"><img src="We.png" width="30px" height="30px">Camera Capture</button>
       <br>
    </div>
   <hr>
@@ -146,5 +135,6 @@
 </div>
 <script src="tab-switching.js"></script>
 <script src="games.js"></script>
+<script src="cleanurl.js"></script>
 </body>
 </html>
