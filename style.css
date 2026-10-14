@@ -62,93 +62,13 @@ label {
     gap: 8px;
     padding: 8px 12px;
     font-size: 25px;
-    font-weight: 700;
     text-align: center;
     cursor: pointer;
+    font-family: 'Space Mono', monospace;
+
 }
 
 .minecraft-btn img {
-    width: 50px;
-    height: 50px;
-    display: block;
-}
-
-.spotify-btn {
-    color: white;
-    border: solid 5px white;
-    border-radius: 10px;
-    padding: 3px;
-    width: 200px;
-    height: 75px;
-    background-image: url('Spotify-Background-Icon.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; 
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    padding: 8px 12px;
-    font-size: 25px;
-    font-weight: 700;
-    text-align: center;
-    cursor: pointer;
-}
-
-.spotify-btn img {
-    width: 50px;
-    height: 50px;
-    display: block;
-}
-
-.youtube-btn {
-    color: white;
-    border: solid 5px white;
-    border-radius: 10px;
-    padding: 3px;
-    width: 250px;
-    height: 75px;
-    background-color: #000;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; 
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    padding: 8px 12px;
-    font-size: 25px;
-    font-weight: 700;
-    text-align: center;
-    cursor: pointer;
-}
-
-.youtube-btn img {
-    width: 75px;
-    height: 50px;
-    display: block;
-}
-
-.coding-btn {
-    color: white;
-    border: solid 5px white;
-    border-radius: 10px;
-    padding: 3px;
-    width: 200px;
-    height: 75px;
-    background-color: #000;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; 
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    padding: 8px 12px;
-    font-size: 25px;
-    font-weight: 700;
-    text-align: center;
-    cursor: pointer;
-}
-
-.coding-btn img {
     width: 50px;
     height: 50px;
     display: block;
@@ -182,13 +102,13 @@ label {
 }
 
 .snacks-btn{
-    color: white;
+    color: #fff;
     border: solid 5px white;
     border-radius: 10px;
     padding: 3px;
     width: 200px;
     height: 75px;
-    background-image: url('Snacks-Background-con.png');
+    background-image: url('OpenT-Browser-Background.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 200px;
@@ -196,10 +116,11 @@ label {
     align-items: center;
     gap: 8px;
     padding: 8px 12px;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 700;
     text-align: center;
     cursor: pointer;
+    font-family: 'Syncopate', sans-serif;
 }
 
 .snacks-btn img {
@@ -208,14 +129,14 @@ label {
     display: block;
 }
 
-.cookie-btn{
+.survival-btn{
     color: white;
     border: solid 5px white;
     border-radius: 10px;
     padding: 3px;
     width: 200px;
     height: 75px;
-    background-image: url('Background-Cookie-Icon.jpg');
+    background-image: url('Survival-Background-Icon.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 200px;
@@ -229,23 +150,20 @@ label {
     cursor: pointer;
 }
 
-.cookie-btn img {
+.survival-btn img {
     width: 50px;
     height: 50px;
     display: block;
 }
 
-.flappy-btn{
+.new-game-btn{
     color: white;
     border: solid 5px white;
     border-radius: 10px;
     padding: 3px;
     width: 200px;
     height: 75px;
-    background-image: url('Flappy-Background-Icon.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 200px;
+    background-color: #000;
     display: flex;
     align-items: center;
     gap: 8px;
@@ -256,19 +174,18 @@ label {
     cursor: not-allowed;
 }
 
-.flappy-btn img {
-    width: 75px;
+.new-game-btn img {
+    width: 50px;
     height: 50px;
     display: block;
 }
 
 .launch-btn {
     color: white;
-    background-color: r(151, 0, 0);
+    background-color: transparent;
     border: solid 5px #fff;
     border-radius: 20px;
     padding: 10px;
-    font-size: 25;
 }
 
 .minecraft-title {
@@ -278,8 +195,8 @@ label {
 .home-page-button {
     color: black;
     background-color: white;
-    border: solid 3px #fff;
-    border-radius: 20px;
+    border: solid 3px #000;
+    border-radius: 30px;
     padding: 10px;
     font-size: 20px;
 }
@@ -287,7 +204,7 @@ label {
 .topnav {
   display: flex;
   align-items: center;
-  gap: 20px; /* Adjust spacing between items here */
+  gap: 20px; 
   padding: 15px;
   background-color: #fff;
   background-size:contain;
@@ -305,20 +222,33 @@ label {
   text-decoration: none;
   font-size: 17px;
   background-color: #000;
+  border-radius: 20px;
+  border: solid 3px #000;
+  
 }
 
 .topnav a:hover {
-  background-color: #000;
-  color: #fff;
-  border: solid 1px #fff;
-  border-radius: 5px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 20px;
+  border: solid 3px #000;
+   box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.4);
 }
 
 .topnav a.active {
-  background-color: #000;
-  color: #fff;
-    border: solid 1px #fff;
-  border-radius: 5px;
+  background-color: #fff;
+  color: #000;
+  border: solid 3px #000;
+  border-radius: 20px;
+   box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+.topnav a.active:hover {
+background-color: #fff;
+  color: #000;
+  border-radius: 20px;
+  border: solid 3px #000;
+  box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.4);
 }
 
 /* Hide all content sections by default */
