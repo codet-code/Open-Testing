@@ -7,7 +7,6 @@
 <body>
   <div class="topnav">
   <img src="Open-Testing-icon-Home.png" width="75px" height="75px">
-  <!-- Use href to target the ID of the content divs -->
   <a class="nav-link active" href="#home">Home</a>
   <a class="nav-link" href="#games">Games</a>
   <a class="nav-link" href="#apps">Apps</a>
@@ -19,6 +18,7 @@
 <div id="home" class="tab-content active-content">
   <h2>Welcome to Open Testing!</h2>
   <hr class="half">
+  <a href="mobile-check.html">Test</a>
 </div>
 
 <div id="games" class="tab-content">
@@ -26,8 +26,6 @@
   <hr>
   <br>
   <div class="games-page-game-button">
-    <h2>Games: </h2>
-    <br>
       <button onclick="openMinecraftWindow()" class="minecraft-btn"><img src="Minecraft-icon.png" width="30px" height="30px">Minecraft</button>
       <br>
       <button onclick="openPolyTrackWindow()" class="poly-track-btn"><img src="Poly-Track-Icon.png" width="30px" height="30px">Poly Track</button>
@@ -38,20 +36,10 @@
       <br>
        <button onclick="openWeWindow()" class="we-btn"><img src="We.png" width="30px" height="30px">Camera Capture</button>
       <br>
-   </div>
-  <hr>
-  <div class="games-page-game-button">
-  <h2>Apps: </h2>
-      <br>
-      <button onclick="openSpotifyWindow()" class="spotify-btn"><img src="Spotify-Icon.png" width="30px" height="30px">Spotify</button>
-      <br>
-      <button onclick="openYoutubeWindow()" class="youtube-btn"><img src="Youtube-Icon.png" width="30px" height="30px">Youtube</button>
-      <br>
-      <button onclick="openVSCodeWindow()" class="coding-btn"><img src="VSCode-Icon.png" width="30px" height="30px">VSCode</button>
-</div>
+  </div>
     </div>
 
-<div id="Apps" class="tab-content">
+<div id="apps" class="tab-content">
   <h2>App Store</h2>
   <hr>
   <br>
@@ -82,7 +70,7 @@
   <h2>How to Support:</h2>
   <ul>
     <li>Make website suggestions in community tab.</li>
-    <li>Donate through patreion<a href="example.com" style="font-size: 25px;">↗</a>.</li>
+    <li>Donate through patreion<a href="https://www.patreon.com/cw/Open_Testing" style="font-size: 25px;">↗</a>.</li>
     <li>Upload a .txt file for code to add.</li>
     <li>Email us at [--------------------] for things to add.</li>
   </ul>
@@ -102,5 +90,6 @@
 <script src="tab-switching.js"></script>
 <script src="games.js"></script>
 <script src="cleanurl.js"></script>
+<script src="mobile-check.js"></script>
 </body>
 </html>
